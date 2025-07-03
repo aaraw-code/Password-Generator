@@ -3,9 +3,9 @@ import random
 import string
 
 def generate_password(min_length, numbers=True, special_character=True):
-    letters = string.ascii_letters
-    digits = string.digits
-    special = string.punctuation
+    letters = string.ascii_letters               #this is for taking all characters
+    digits = string.digits                       #this is for taking all numbers(integers)
+    special = string.punctuation                 #for take all special characters
 
     characters = letters
     if numbers:
